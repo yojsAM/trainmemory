@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Project "trainMemory"</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+  <script src="index.js"></script>
+</head>
+
+<body>
+
+
+
+<div class="all">
+
+<p> <span class="head" onclick="headClick()"> Тренировка памяти </span> </p>
+
+  <div id="id123" align="center">
+
+    <div class="level"> level: <input id="level" value="1" size="1" readonly> </div>
+
+    <input id="inputA" size="2" value="00" readonly >
+    <input id="inputB" size="2" value="00" readonly>
+    <input id="inputC" size="10" value="000000" readonly>
+
+    <div class="streak"> <input id="streak" value="0" size="3" readonly> </div>
+
+  </div>
+
+    <div id="id1234" align="center">
+
+      <input id="inputD" size="22" placeholder="Введите что вы запомнили">
+      <button id="enter" onclick="enterClick()"> Отправить </button>
+
+        <div class="info"> <input id="info" value="" size="60" readonly> </div>
+
+    </div>
+
+    <div class="description">
+      <ul>
+        <li>Для старта нажмите на заголовок "Тренировка памяти".</li>
+        <li>Будет всего 3 секунды на запоминание.</li>
+        <li>Числа для запоминания взяты по формату "серия и номер" паспорта.</li>
+        <li>Чем выше у вас уровень, тем лучше у вас работает память(сложность пока что не меняется).</li>
+      </ul>
+
+    </div>
+
+</div>
+
+</body>
+
+
+</html>

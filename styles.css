@@ -1,0 +1,86 @@
+.all {
+  user-select: none;
+  align-items: center;
+}
+
+#id123 {
+  border: 4px double black;
+  margin: 5px auto;
+  padding: 10px;
+  width: 50%;
+}
+
+#inputA, #inputB, #inputC, #inputD {
+  margin: 7px auto;
+  font-size: 2em;
+  font-wight: bold;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  line-height: 125%;
+  text-align: center;
+  align: center;
+}
+
+
+
+.level, #level, #streak {
+  font-family: 'Press Start 2P', cursive;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+#info {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+#seconds {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: 1em;
+}
+
+
+p {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+#id1234 {
+  width: 50%;
+  margin: 5px auto;
+  padding: 10px;
+}
+
+.head:hover {
+    background-color: #000000; /* black */
+    color: white;
+    cursor: pointer;
+}
+
+#enter {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.enter:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.description {
+  margin: 5px auto;
+  padding: 10px;
+  width: 50%;
+  font-size: 0.6em;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 150%;
+}
